@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = '{{ sales-mail-structured }}.urls'
+ROOT_URLCONF = 'sales-mail-structure.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = '{{ sales-mail-structured }}.wsgi.application'
+WSGI_APPLICATION = 'sales-mail-structure.wsgi.application'
 
 
 # Database
