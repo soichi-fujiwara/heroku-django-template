@@ -1,1 +1,1 @@
-web: gunicorn {{ sales-mail-structured }}.wsgi
+web: gunicorn sales-mail-structured.wsgi
