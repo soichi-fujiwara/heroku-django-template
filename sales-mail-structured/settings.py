@@ -58,7 +58,10 @@ ROOT_URLCONF = 'sales-mail-structured.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+		#テンプレートの場所を知らせる為。
+		#「templates」フォルダにテンプレートファイルを格納する、という意味
+        #'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
