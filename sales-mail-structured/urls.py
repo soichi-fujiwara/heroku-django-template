@@ -23,5 +23,5 @@ from django.urls import path
 
 urlpatterns = [
 #    path('admin/', admin.site.urls),
-    url(r'^templates/', views.index_template, name='index_template'),
+    url(r'^templates/$', views.index_template, name='index_template'),
 ]
