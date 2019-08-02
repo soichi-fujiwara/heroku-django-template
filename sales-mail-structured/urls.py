@@ -14,10 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+#ADD
+from sales-mail-structured import views
+from django.conf.urls import include, url
+
 from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
 #    path('admin/', admin.site.urls),
-    path(r'^templates/', views.index_template, name='index_template'),
+    url(r'^templates/', views.index_template, name='index_template'),
 ]
