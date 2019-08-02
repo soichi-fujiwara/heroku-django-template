@@ -15,7 +15,7 @@ Including another URLconf
 """
 
 #ADD
-from sales-mail-structured import views
+from . import views
 from django.conf.urls import include, url
 
 from django.contrib import admin
