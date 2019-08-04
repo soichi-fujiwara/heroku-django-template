@@ -3,7 +3,11 @@
 <title>template test</title>
 </head>
 <body>
-<div>{{form}}</div>
 <p>This is {{app}} test.</p>
+<form action="" method="POST">
+	{% csrf_token %}
+	{{form}}
+	<input type="submit" value="送信"/>
+</form>
 </body>
 </html>
