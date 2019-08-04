@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http.response import HttpResponse
-from forms import MyForm
+from .forms import MyForm
 
 def index_template(request):
 
