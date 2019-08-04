@@ -3,7 +3,7 @@ from django.http.response import HttpResponse
  
 def index_template(request):
 
-  #ƒtƒH[ƒ€ì¬
+  #ãƒ•ã‚©ãƒ¼ãƒ ä½œæˆ
   form = MyForm()
   
   myapp_data = {
