@@ -1,4 +1,4 @@
 from django import forms
 
 class MyForm(forms.Form):
-  text = forms.CharField(max_length=100)
+  in_area = forms.CharField(max_length=100)
